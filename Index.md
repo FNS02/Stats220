@@ -23,13 +23,16 @@ This meme was made with the use of the [*{Magick}*](https://cran.r-project.org/w
 2. I've seen similar memes in the past and wanted to make my own take on one.
 3. The happy hamster is doing a peace sign !!!
 
-
+---
 
 ### Below is the code that was used to create the meme that was shown above. 
 
 ```r
 
+
 library(magick)
+
+
 
 rollercoaster <- image_read("https://i.ytimg.com/vi/MyzjnbYeecM/hqdefault.jpg") %>%
   image_scale(500)
@@ -56,7 +59,7 @@ happy_hamster_on_rollercoaster <- image_composite(image_scale(rollercoaster, "x5
 rollercoaster_text <- image_blank(width = 500,
                                   height = 500,
                                   color = "white") %>%
-  image_annotate(text = "Me during the whole\n rollercoaster ride",
+  image_annotate(text = "Me during the half the\n rollercoaster ride",
                  color = "black",
                  size = 50,
                  font = "Impact",
@@ -84,5 +87,8 @@ final_meme <- c(top_row,bottom_row)%>%
   image_append(stack = TRUE)
 
 image_write(final_meme, "meme.jpeg")
+
+final_meme
+
 
 ```
