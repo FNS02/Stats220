@@ -6,7 +6,11 @@
 
 
 
-my motiviation to create this meme comes from
+### What was my motivation to create this meme? 
+
+* The picture of the scared hamster is honestly hilarious
+* I've seen similar memes in the past and wanted to create my own take on one.
+* The happy hampster is holding peace sign !!! 
 
 ```
 
