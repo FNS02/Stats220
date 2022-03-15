@@ -1,18 +1,33 @@
+# Welcome to my Stats220 Website! 
 
-
+This website covers **Part A** of my Assignment 1 for Stats 220 where we were tasked to create a meme in `R`!
 
 
 ![](meme.jpeg)
-This meme was made with the use of the [*Magick*](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) Package for `R`. 
+This meme was made with the use of the [*{Magick}*](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) Package for `R`. 
 
 
-### What was my motivation to create this meme? 
 
-* The picture of the scared hamster is honestly hilarious
-* I've seen similar memes in the past and wanted to create my own take on one.
-* The happy hampster is holding peace sign !!! 
+## Extra Information about this meme 
 
-```
+- This meme is a take on the popular 2 panel Drake Meme.
+- Similar memes have been used in the past. I have however changed the images to try and add some originality.
+- The meme contains 3 seperate images. The .PNGs for each hamster and the JPEG of the background.
+- The seperate images have been composited together using [*{Magick}*](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) create the final output.
+  
+  
+  
+## What was my motivation for creating this meme?
+
+1. The photo of the scared hamster is honestly hilarious 
+2. I've seen similar memes in the past and wanted to make my own take on one.
+3. The happy hamster is doing a peace sign !!!
+
+
+
+### Below is the code that was used to create the meme that was shown above. 
+
+```r
 
 library(magick)
 
