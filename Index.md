@@ -3,7 +3,7 @@
 
 
 ![](meme.jpeg)
-
+This meme was made with the use of the [*Magick*](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) Package for `R`. 
 
 
 ### What was my motivation to create this meme? 
